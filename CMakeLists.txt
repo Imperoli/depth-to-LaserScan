@@ -34,6 +34,3 @@ rosbuild_add_executable(MultiToSingleLaserScan src/MultiToSingleLaserScan.cpp)
 
 find_package(Eigen REQUIRED)
 include_directories(${Eigen_INCLUDE_DIRS})
-#FIND_PACKAGE(OpenCV REQUIRED)
-#TARGET_LINK_LIBRARIES(kinectToLaserScan ${OpenCV_LIBS})
-#TARGET_LINK_LIBRARIES(MultiToSingleLaserScan ${OpenCV_LIBS})
